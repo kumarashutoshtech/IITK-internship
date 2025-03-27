@@ -4,16 +4,16 @@
     {
       "question": "Which of the following electronic devices is used for stator voltage control in fan regulators?",
       "answers": {
-        "a": "TRIC",
+        "a": "TRIAC",
         "b": "BJT",
         "c": "MOSFET",
         "d": "Diode"
       },
       "explanations": {
         "a": "TRIAC (Triode for AC) is a semiconductor device widely used in power control and switching applications.It finds applications in switching, phase control, chopper designs, brilliance control in lamps, speed control of motors, etc. <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "Used in amplification and switching but not ideal for AC fan regulators. Found in signal and low-power circuits.",
+        "c": " Efficient for DC motor control and high-speed switching but not typically used in AC fan regulators.",
+        "d": " Allows current in one direction, mainly used for rectification, not for AC voltage control in fan regulators"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "GTO"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
+        "a": "No such device as "DIAR" in power electronics. Likely a typo for "DIAC," which has only two terminals (no gate)",
+        "b": " SCR (Silicon Controlled Rectifier): Has terminals Anode, Cathode, and Gate, not MT1 and MT2. Used for controlled rectification and switching in DC circuits.",
         "c": "TRIACS are the components used in controlling the AC signals.It is used in high power switching applications It is used in domestic fan controlThe TRIAC is a 3-terminal semiconductor device and may be considered equivalent to two SCRS connected in antiparallel.TRIAC are bidirectional devices. It is ideal for operation utilizing AC power for switching purposes (operated at power frequency) It can control current flow for both halves in an alternating current cycle. Triac Used in acvoltage regulators, Cycloconverters, inverter",
-        "d": "Explanation 2"
+        "d": "GTO (Gate Turn-Off Thyristor): Has Anode, Cathode, and Gate terminals. Used in high-power switching but does not have MT1 and MT2."
       },
       "correctAnswer": "C",
       "difficulty": "beginner"
