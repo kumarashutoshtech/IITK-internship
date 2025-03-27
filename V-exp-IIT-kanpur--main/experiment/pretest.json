@@ -32,7 +32,7 @@
         "c": "TRIACS are the components used in controlling the AC signals.It is used in high power switching applications It is used in domestic fan controlThe TRIAC is a 3-terminal semiconductor device and may be considered equivalent to two SCRS connected in antiparallel.TRIAC are bidirectional devices. It is ideal for operation utilizing AC power for switching purposes (operated at power frequency) It can control current flow for both halves in an alternating current cycle. Triac Used in acvoltage regulators, Cycloconverters, inverter",
         "d": "Explanation 2"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
